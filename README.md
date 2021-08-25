@@ -97,4 +97,6 @@ I must admit, I've always found this one a bit odd: by putting JS code in a json
 #### step 3
 
 - [ ] bullet 1: isn't csv.split(",") called?
-- [ ] bullet 2: (comma)-delimited string
+- [ ] bullet 2: (comma)-delimited string? semicolon-delimited? is the original countries variable being altered, or is a new variable being created? (the solution shows the latter, but the wording here.....)
+- [ ] bullet 3: what's being asked here doesn't match up with the solution
+- [ ] 
