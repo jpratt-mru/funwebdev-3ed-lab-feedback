@@ -63,3 +63,38 @@
 ### 8.8
 
 - [ ] maybe call this "Using the Console and Native **Objects**"? (the "Natives" is both a bit vague...and could be misconstrued)
+
+
+### TYK #3
+
+#### step 4
+
+- [ ] "loop through this array" doesn't make sense, because the "this" seems to refer to the tips array...which is empty!
+
+#### step 5
+
+- [ ] (each) tip by multiplying (each) individual billAmount element ....
+
+#### step 7
+
+- [ ] ...each bill total and (associated) tip amount
+- [ ] ...will iterate (through?) the billTotals array, but....
+
+### 8.12
+
+Would it make sense to put the dynamic properties bit _after_ the object literal form?
+
+### 8.13
+
+I must admit, I've always found this one a bit odd: by putting JS code in a json file, you're both sending a mixed signal (this file with a json extension actually holds JS!) and confusing/annoying any linters that you have installed. :)
+
+### TYK #4
+
+#### step 1
+
+- [ ] the link is busted ... Reader is only linking a URL that stops at /JavaScript, not /Javascript/Reference/Global_Objects/Array
+
+#### step 3
+
+- [ ] bullet 1: isn't csv.split(",") called?
+- [ ] bullet 2: (comma)-delimited string
