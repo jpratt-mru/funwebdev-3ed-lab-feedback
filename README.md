@@ -64,6 +64,12 @@
 
 - [ ] maybe call this "Using the Console and Native **Objects**"? (the "Natives" is both a bit vague...and could be misconstrued)
 
+### TYK #2
+
+- [ ] the given solution has two potential issues
+  - [ ] it doesn't allow for $0 bills (which is reasonable...but should probably be mentioned in the question), and
+  - [ ] it involves a logical operator, which hasn't been mentioned in previous exercises
+
 
 ### TYK #3
 
