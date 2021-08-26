@@ -109,7 +109,7 @@ I must admit, I've always found this one a bit odd: by putting JS code in a json
 #### step 4
 
 - [ ] bullet 3: task is already complete in starting file!
-- [ ] bullet 5: rbb (not rgp)
+- [ ] bullet 5: rgb (not rgp)
 
 #### step 5
 
