@@ -138,4 +138,49 @@ I must admit, I've always found this one a bit odd: by putting JS code in a json
 
 Missing a period: "...objects can also have behaviors (functions)."
 
+### 8.19
 
+- [ ] The exercise is labelled 10.19 instead of 8.19
+- [ ] The starting file should have "param f5" instead of "param f4" on line 26
+
+
+#### step 2
+
+- [ ] "data from f1" = "data from f1a"
+
+#### step 4
+
+- [ ] you can only leave out the () if it's a *single* parameter
+
+### 8.20
+
+Should this be title "Constructor Function" instead? Function constructors are a [different beast](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/Function) aren't they?
+
+
+### TYK #6
+
+- [ ] Numbering is off: there are 2 step 3's!
+- [ ] It is a *bit* odd that the numbers for Apple in the starting doc differ from the ones you *should* be getting when your work is done correctly (and that are shown in Figure 8.9.
+
+#### step 2
+
+- [ ] this does that "is it JSON...or JS" thing (see 8.13)
+- [ ] is the conversion supposed to be done in the json file? or in the test06.js?
+
+#### step 3 (the first one)
+
+- [ ] would be helpful if it was explicitly stated that the constructor should take in a company
+- [ ] day50 and day200 moving average methods are not mentioned (and it's not mentioned that these are the same thing as Share Price in the output)
+
+#### step 3 (the second one)
+
+- [ ] "You can (call) it...."
+- [ ] Maybe say "You should alter your methods from step 3 so that they call currency()"?
+
+#### step 4
+
+- [ ] since "output" can be a bit vague, it might be best say "output, using document.write,..."?
+
+#### step 5
+
+- [ ] maybe say "...output a single tag from the tag array in the company data..."? (to differentiate from *HTML* tag)
