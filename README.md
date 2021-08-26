@@ -105,4 +105,37 @@ I must admit, I've always found this one a bit odd: by putting JS code in a json
 - [ ] bullet 1: isn't csv.split(",") called?
 - [ ] bullet 2: (comma)-delimited string? semicolon-delimited? is the original countries variable being altered, or is a new variable being created? (the solution shows the latter, but the wording here.....)
 - [ ] bullet 3: what's being asked here doesn't match up with the solution
-- [ ] 
+
+#### step 4
+
+- [ ] bullet 3: task is already complete in starting file!
+- [ ] bullet 5: rbb (not rgp)
+
+#### step 5
+
+- [ ] ...to use (the) document.write() function.... (I know some articles can be left out, but this one sounds....)
+- [ ] bullet2: luminosity => luminance
+
+### 8.16
+
+#### step 4
+
+- [ ] is the outer let actually in global scope? To muddy the waters, it does not show up as such in the DevTools debugger - it shows up at the "script" level...but is that just a DevTools creation? Dunno!
+
+### TYK #5
+
+#### step 3
+
+- [ ] It's not clear that the tip array from TYK #3 should be recreated here.  Perhaps "...so that the loop that populates the array of tips now does so using the function"?
+
+### 8.17
+
+#### step 3
+
+- [ ] "...ever used by the calculateFunction()..." => calculateTax()
+
+### 8.18
+
+Missing a period: "...objects can also have behaviors (functions)."
+
+
