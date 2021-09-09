@@ -24,3 +24,9 @@
 ### 9.2.9
 
 - [ ] I would mention that, confusingly, **querySelectorAll** returns a **NodeList** object, which is very much like and **HTMLCollection**...which you can iterate through like an array. But which is not an array. Isn't life grand?
+
+## TYK#1
+
+### 2
+
+- [ ] Mention not to worry about the extra whitespace that's showing up? Or give a hint on ways to get around the problem?
