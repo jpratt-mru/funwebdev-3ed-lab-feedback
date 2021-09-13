@@ -110,3 +110,20 @@
 ### 9.7.5
 
 - [ ] make location (inside the load handler) explicit
+
+## 9.8
+
+### 9.8.2
+
+- [ ] "...each one representing a single stock ~~symbol~~"
+
+### 9.8.4
+
+- [ ] "and assign event handlers..." => assigning
+- [ ] "after the code from the previous step": unfortunately, that includes the load handler!
+- [ ] use single quotes in `== "img"` for consistency
+
+### 9.8.5
+
+- [ ] use single quotes in `= "block"` for consistency
+- [ ] mention Figure 9.3? (It's otherwise not mentioned in any of the steps!)
