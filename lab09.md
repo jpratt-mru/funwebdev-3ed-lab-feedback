@@ -78,4 +78,35 @@
 
 ### 9.5.5
 
-- [ ] mention that toggle could be used here as well?
+- [ ] mention that `toggle` could be used here as well?
+
+## 9.6
+
+### 9.6.3
+
+- [ ] _maybe_ be clear that they should be editing `lab09-ex05.js`...though it _is_ kind of obvious?...
+- [ ] the given code in the DOMContentLoaded handler starts with the code they were doing in 9.5.3, skipping 1 & 2, which might cause confusion
+- [ ] opportunity to mention difference between `e.target` and `e.currentTarget`?
+
+## 9.7
+
+### 9.7.1
+
+- [ ] propogate => propagate
+
+### 9.7.2
+
+- [ ] suggest that they clear the console after every click; otherwise the console will be very "noisy" and it'll be harder to see what's happening!
+
+### 9.7.3
+
+- [ ] might need to be clearer that this needs to go in the load handler...
+- [ ] opportunity to again mention multiple handlers on a single element and the order they fire?
+
+### 9.7.4
+
+- [ ] propogated => propagated
+
+### 9.7.5
+
+- [ ] make location (inside the load handler) explicit
