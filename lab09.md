@@ -126,4 +126,33 @@
 ### 9.8.5
 
 - [ ] use single quotes in `= "block"` for consistency
-- [ ] mention Figure 9.3? (It's otherwise not mentioned in any of the steps!)
+
+## TYK#3
+
+Was the intent here to add 5 individual event listeners? Or just use event delegation? Or give them an option? (If so, being explicit might be useful here....) The instructions, are of course, specific...but an adventurous soul who thinks they're being clever using event delegation is going to be bitten:
+
+- I'm seeing some very interesting behaviour (at least in Chrome) - if we use event delegation on the div.panels, then any clicks in one of the `<p>`s skips the parent `div.panel`!
+
+- So if they decide to use event delegation, they won't see the expansion occur if the click on the p's...which take up quite a bit of room!
+
+## 9.9
+
+This is a fun exercise...but there is a lot of "magic" going on here for learners doing this sucker at this point in the textbook. Almost so much that the focus of the exercise (keyboard event handling) is somewhat lost?
+
+### 9.9.2
+
+- [ ] missing a `);` at end of code block
+
+### 9.9.3
+
+- [ ] maybe keep the `audio.currentTime = 0;`? it's just one line, like the `...`!
+
+### 9.9.5
+
+- [ ] "...look at the .key and .playing CSS classes. Notice the transition property?" => `.playing` doesn't have a transition property!
+
+### 9.9.6
+
+- [ ] 'keypress' is used as the event instead of 'keydown'
+- [ ] 'load' is used instead of 'DOMContentLoaded'
+- [ ] it's not clear where the new code should go...before the previous playSound and what followed it?
