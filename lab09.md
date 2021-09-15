@@ -156,3 +156,61 @@ This is a fun exercise...but there is a lot of "magic" going on here for learner
 - [ ] 'keypress' is used as the event instead of 'keydown'
 - [ ] 'load' is used instead of 'DOMContentLoaded'
 - [ ] it's not clear where the new code should go...before the previous playSound and what followed it?
+
+## 9.10
+
+This is a tough one. Being even a bit comfortable with the debugger is uber-important. Even trying out a few of the basics here is really useful...but this could be expanded quite a bit and be even more useful. (Or maybe split into a number of exercises instead of just one?)
+
+## 9.11
+
+Might be useful to point people to some docs on `<video>`? Though, ideally, they should be engaging their natural curiosity and doing so without prompting. Yup.
+
+### 9.11.4
+
+- [ ] const `vol` is created, but not used in the following `addEventListener` call...though the code still "works", because global variables are being made for each element with an id!
+
+## 9.12
+
+### 9.12.1
+
+- [ ] "...when the images become visible in the browser." => the img elements? (because "images" might be misconstrued as "the completed images")
+- [ ] "As well, CSS for the img tag ensures..." => is this necessary? If so, perhaps it can be moved to a comment elsewhere? It seems a bit out of place here.
+- [ ] "uses version" => versions
+
+### 9.12.2
+
+- [ ] `orientationchange` has been deprecated: https://developer.mozilla.org/en-US/docs/Web/API/Window/orientationchange_event
+- [ ] orientationChange => orientationchange (might be a moot point due to deprecation?)
+
+### 9.12.3
+
+- [ ] Is the comment at the bottom - which just, as it states, repeats the comment in the code - necessary?
+- [ ] the purpose of the opening if statement is a bit opaque...it depends on knowing what `setTimeout` returns, knowing the intent of `if (lazyloadThrottleTimeout)`, and knowing that there's a `clearTimeout` in the Web API.
+- [ ] what purpose does the `if (images.lenth == 0)` serve? When will the original images NodeList every change here?
+
+## 9.13
+
+### 9.13.3
+
+- [ ] might not be necessary to say the "This assigns an anonymous function...." bit, since they've done a bunch of these in a row without a reminder. Or reword it a bit: "The anonymous function on the load event assigns the setBackground function to the blur and...."?
+- [ ] switch around steps 3 and 2? Previous exercises have put the handler function after the invocation (like for updateButton in ex 9.11)...but perhaps it is good to show that you can have a function declaration before its use. But if that was the intent, maybe mention it in the relevant steps?
+
+### 9.13.4
+
+- [ ] "Tab between..." => "Move between different fields with tab or the mouse."?
+
+## 9.14
+
+Maintain consistent use of ' and "
+
+### 9.14.3
+
+- [ ] "Experiment by filling in some fields, leaving others blank. Also try putting just spaces in some fields."
+
+### 9.14.4
+
+- [ ] comment says to "hide the error message element" but since it starts off hidden, this might cause confusion. Maybe "hide the error message from previous attempts"? or something like that...
+- [ ] greyed out code uses `var msg` instead of `let msg`
+- [ ] might need to be a bit more explicit that the last two added lines replace the alert?
+- [ ] need to justify use of `innerHTML` instead of `createElement`?
+- [ ] "...shown in FIgure 9.6" => 9.7
