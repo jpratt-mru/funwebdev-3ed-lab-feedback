@@ -214,3 +214,13 @@ Maintain consistent use of ' and "
 - [ ] might need to be a bit more explicit that the last two added lines replace the alert?
 - [ ] need to justify use of `innerHTML` instead of `createElement`?
 - [ ] "...shown in FIgure 9.6" => 9.7
+
+## TYK#4
+
+This is a cool (though challenging) exercise...feels very non-trivial and definitely something you'd see in "the real world".
+
+Might have been nice to have the text displayed in the sliders update according the slider vals...but there's a lot going on here already!
+
+### 4
+
+- [ ] make it explicit that the reset doesn't have to reset the sliders to original values...or should it?
