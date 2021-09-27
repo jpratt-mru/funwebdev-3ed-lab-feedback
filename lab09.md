@@ -34,7 +34,7 @@
 ### 3
 
 - [ ] Since there are no img elements outside of the `<ul>`, "within the `<ul>` element" isn't necessary...though it brings up the point that maybe you _could_ add another img in here somewhere so that they grab only the "right" ones....
-- [ ]The suggested shadow effect is pretty subtle...perhaps one that "pops" a bit more would be more useful here?
+- [ ] The suggested shadow effect is pretty subtle...perhaps one that "pops" a bit more would be more useful here?
 
 ## 9.3
 
@@ -186,7 +186,7 @@ Might be useful to point people to some docs on `<video>`? Though, ideally, they
 
 - [ ] Is the comment at the bottom - which just, as it states, repeats the comment in the code - necessary?
 - [ ] the purpose of the opening if statement is a bit opaque...it depends on knowing what `setTimeout` returns, knowing the intent of `if (lazyloadThrottleTimeout)`, and knowing that there's a `clearTimeout` in the Web API.
-- [ ] what purpose does the `if (images.lenth == 0)` serve? When will the original images NodeList every change here?
+- [ ] what purpose does the `if (images.lenth == 0)` serve? When will the original images NodeList ever change here?
 
 ## 9.13
 
