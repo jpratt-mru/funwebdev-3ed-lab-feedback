@@ -51,3 +51,29 @@
 ### 10.1.12
 
 - [ ] "A more concise way..." => "An even more concise way..."
+
+
+## TYK#1
+
+### 1
+
+- [ ] "...to each symbol object..." => "...to each stock object..."
+- [ ] via a regular for or a for-of loop ?
+- [ ] the "This" in "This will require..." is a bit unclear. Perhaps "Adding this new function will require a function expression."?
+
+### 3
+
+- [ ] why use $0? (Do negative stock prices exist?) If the goal is to use a compound conditional here, maybe choose a different lower bound?
+
+### 4
+
+- [ ] "Create a new array of strings contains `<li>` elements containing..." => "Create a new array of strings containing `<li>` elements displaying..."
+
+### 5
+
+
+This one is a bit out of place, as it doesn't follow the original instructions (of solving two different ways). Also it's a bit tricky, as `localeCompare` isn't mentioned anywhere in the labs or text. (I'm all for a bit of independent research, but a nudge would be useful here.)
+
+This reminds me: there should be something in either the text or in a lab exercise that illustrates a big gotcha with `sort` when used with arrays of numbers: they're sorted as strings!
+
+Maybe make 5 its own little exercise to address both issues?
