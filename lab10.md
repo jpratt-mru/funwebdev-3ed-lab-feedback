@@ -16,7 +16,7 @@
 
 ### 10.1.2
 
-- [ ] "sortedPaintingsByYear" => "paintingsSortedByYear" ? 
+- [ ] "sortedPaintingsByYear" => "paintingsSortedByYear" ?
 
 ### 10.1.3
 
@@ -25,7 +25,7 @@
 
 ### 10.1.4
 
-- [ ] formatting suggestions: 
+- [ ] formatting suggestions:
   - [ ] bring the `paintings.filter` down to the next line (like you do in 10.1.5)
   - [ ] remove the brackets from the condition
 
@@ -51,7 +51,6 @@
 ### 10.1.12
 
 - [ ] "A more concise way..." => "An even more concise way..."
-
 
 ## TYK#1
 
@@ -85,7 +84,7 @@ Maybe make 5 its own little exercise to address both issues?
 
 ### 10.2.1
 
-- [ ] perhaps add a reference to what likely seems like a magic incantation to many readers? :) 
+- [ ] perhaps add a reference to what likely seems like a magic incantation to many readers? :)
 
 ### 10.2.3
 
@@ -115,8 +114,76 @@ Maybe make 5 its own little exercise to address both issues?
 
 ### 2
 
-- [ ] "...take two arguments: the gallery name and the gallery id" => "...the gallery id and the gallery name"  (if the reader follows the given order, the results isn't going to be what they expect...though it does provide an interesting little debugging moment! :) )
+- [ ] "...take two arguments: the gallery name and the gallery id" => "...the gallery id and the gallery name" (if the reader follows the given order, the results isn't going to be what they expect...though it does provide an interesting little debugging moment! :) )
 
 ### 5
 
 - [ ] I wonder whether "retrieve the sample data" is going to be enough guidance. Should the reader be explicitly told to store the result in a variable?
+
+## 10.4
+
+### 10.4.1
+
+- [ ] "Browser APIs are simply web pages..." => aren't browser APIs things like the Fetch API and the Canvas API? Should it be Third-party API?
+
+### 10.4.2
+
+- [ ] as much as I'm a fan of foo (and trust me - I'm a HUGE fan), I feel there are a lot of learners out there (esp from other countries?) who have NO clue what this foo thing is
+- [ ] "...which is a way to handle..." => "...which is an object used to handle..."?
+- [ ] you might actually want to use `console.log` here, since it'll decorate the displayed promise with `{<pending>}`, which is kinda educational?
+
+### 10.4.3
+
+- [ ] ah, bar...I love you almost as I love foo, but perhaps you do not belong here as well?
+- [ ] might be a good place to call out the fact that the Promise is displayed first in the console? (I understand that the note on this one is getting long, though!)
+  - [ ] ...but I now see that's done in 4, so forget this? Or use 4 to repeat it and hammer it home?
+- [ ] "Notice that the fetch returns a request..." => have to be careful here...doesn't it return a Promise?
+
+### 10.4.5
+
+- [ ] "Modify the URL in the fetch..." => "Modify the URL used by the fetch..."
+
+### 10.4.6
+
+- [ ] "...the second promise still executes..." => Promises can't execute, can they?
+- [ ] change the `console.log(err)` to `console.error(err)` to sync up with the other error examples later?
+
+### 10.4.7
+
+- [ ] OK this is weird, but I see absolutely no change with the suggested code added - the logs to console are exactly the same as they were before the change!
+
+## 10.5
+
+### 10.5.3
+
+- [ ] might be useful to suggest where in the code...though it functions fine wherever you put it, I suppose....
+
+### 10.5.6
+
+- [ ] put the `let fetchedData;` back in the code
+
+### 10.5.7
+
+- [ ] "Remove the changes made in steps 5 and 6..." => "...made in step 6..." (since step 6 includes all the changes made in 5?)
+- [ ] Should make it clear that the code should be added directly after the `fetch`
+- [ ] in the name of all that is holy...please, no `alert`s! :)
+
+## 10.6
+
+"The next example provides an example." Um.... :)
+
+### 10.6.2
+
+- [ ] provide guidance where the code goes
+- [ ] use "input" event for input...that's why it's there!
+- [ ] should `innerHTML` use be encouraged? If there were handlers on the list elements, wouldn't there be a memory leak?
+
+### 10.6.3
+
+- [ ] replace `var` with let/const?
+
+### 10.6.4
+
+- [ ] provide guidance where the code goes
+- [ ] "obj" => "universityName" ?
+- [ ] define the regex outside of the filter call
