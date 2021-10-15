@@ -188,7 +188,6 @@ Maybe make 5 its own little exercise to address both issues?
 - [ ] "obj" => "universityName" ?
 - [ ] define the regex outside of the filter call
 
-
 ## 10.7
 
 - [ ] shouldn't everything after the import be wrapped in a DOMContentLoaded handler?
@@ -223,9 +222,10 @@ Seems ok.
 
 - [ ] why the change in comment style? (from `//` to `/* */`?)
 - [ ] what is the difference between the two comments "then handle button click" and "When button is clicked, fetch data...."?
-- [ ] I suspect you want the TYKs to be a little less prescriptive, but I wonder whether 2 points is enough for this sucker. Each point is pretty dense with information. (Which may be the point?) 
+- [ ] I suspect you want the TYKs to be a little less prescriptive, but I wonder whether 2 points is enough for this sucker. Each point is pretty dense with information. (Which may be the point?)
 
 ### 1
+
 - [ ] Instead of "will do" and "will use", how about just "do" and "use"?
 - [ ] It's not labelled as a "load" button, so there might be some confusion.
 - [ ] manipulating the DOM via `innerHTML` is a bit fraught with peril, isn't it? You could do `select.replaceChildren()` perhaps?
@@ -251,3 +251,26 @@ Seems ok.
 - [ ] is `function simplePromise` gray because it's in the starting file?
 - [ ] perhaps a different name for the function? The current name sounds like it's returning a simple promise...
 - [ ] change to `console.error` for catch block?
+
+### 10.9.5
+
+- [ ] reader might not know what ML is....
+- [ ] semicolon missing after `thumbURL` string
+
+### 10.9.6
+
+- [ ] semicolon after `return tagImageContent(url)`
+- [ ] continue using template strings throughout to be consistent?
+- [ ] `console.error` for the catch?
+- [ ] "...create thumbnail and create thumbnail..." => "...tag image content and create thumbnail..."
+
+### 10.9.7
+
+- [ ] can't this be moved into 8?
+
+### 10.9.9
+
+- [ ] "To do so..." => "To simulate this..."?
+- [ ] `console.error` for the catch?
+- [ ] add a bit of commentary about `Promise.all`?
+- [ ] I wonder if the "potentially **happen**" might make the user focus on the fact that fate could decide that both things happen at the same point in time, as opposed to focusing on the fact that "the order doesn't matter here - just that these jobs get done"?
