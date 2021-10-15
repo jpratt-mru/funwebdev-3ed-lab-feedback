@@ -187,3 +187,54 @@ Maybe make 5 its own little exercise to address both issues?
 - [ ] provide guidance where the code goes
 - [ ] "obj" => "universityName" ?
 - [ ] define the regex outside of the filter call
+
+
+## 10.7
+
+- [ ] shouldn't everything after the import be wrapped in a DOMContentLoaded handler?
+
+### 10.7.2
+
+- [ ] provide guidance where the function should go
+
+### 10.7.3
+
+- [ ] "...you will event delegation" => "...you will use event delegation"
+
+### 10.7.4
+
+- [ ] double semicolon `new FormData();;`
+
+### 10.7.5
+
+- [ ] "Add the following after code..." => "Add the following after the code..."
+
+### 10.7.6
+
+- [ ] provide guidance for placement
+- [ ] maybe have the server respond to one of the buttons with a failure?
+- [ ] it is likely confusing whether the `received` property that is coming back is something that all responses have or whether it was constructed by the server handling the request...
+
+## 10.8
+
+Seems ok.
+
+## TYK#3
+
+- [ ] why the change in comment style? (from `//` to `/* */`?)
+- [ ] what is the difference between the two comments "then handle button click" and "When button is clicked, fetch data...."?
+- [ ] I suspect you want the TYKs to be a little less prescriptive, but I wonder whether 2 points is enough for this sucker. Each point is pretty dense with information. (Which may be the point?) 
+
+### 1
+- [ ] Instead of "will do" and "will use", how about just "do" and "use"?
+- [ ] It's not labelled as a "load" button, so there might be some confusion.
+- [ ] manipulating the DOM via `innerHTML` is a bit fraught with peril, isn't it? You could do `select.replaceChildren()` perhaps?
+- [ ] emptying the select is said to happen first ("first empty the `<select>` element..."), but the comments in the starting code don't mention this
+
+- [ ] couldn't the `<main>` be hidden right off the bat, alosng with the two animations?
+- [ ] be explicit that the text of the `<option>s` should be the country name?
+
+### 2
+
+- [ ] "...to the photo URL that contains..." => to the photo API URL that contains..."
+- [ ] "...must have the name iso..." => "...must have the field name iso..."
