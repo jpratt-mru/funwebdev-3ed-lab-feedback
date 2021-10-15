@@ -274,3 +274,19 @@ Seems ok.
 - [ ] `console.error` for the catch?
 - [ ] add a bit of commentary about `Promise.all`?
 - [ ] I wonder if the "potentially **happen**" might make the user focus on the fact that fate could decide that both things happen at the same point in time, as opposed to focusing on the fact that "the order doesn't matter here - just that these jobs get done"?
+
+## 10.10
+
+### 10.10.2
+
+- [ ] "...from existing function" => "...from the existing function"
+- [ ] could also use `opt.value` instead of `setAttribute`
+
+### 10.10.6
+
+- can't we just keep `getCountryData()`?
+  - `const countries = await getCountryData();`
+
+### 10.10.8
+
+- should the try/catch from 7 be included here?
