@@ -238,3 +238,16 @@ Seems ok.
 
 - [ ] "...to the photo URL that contains..." => to the photo API URL that contains..."
 - [ ] "...must have the name iso..." => "...must have the field name iso..."
+
+## 10.9
+
+### 10.9.2
+
+- [ ] `lab10-ex09.js` doesn't exist in provided files!
+- [ ] brace up the if/else in the timeout
+
+### 10.9.3
+
+- [ ] is `function simplePromise` gray because it's in the starting file?
+- [ ] perhaps a different name for the function? The current name sounds like it's returning a simple promise...
+- [ ] change to `console.error` for catch block?
