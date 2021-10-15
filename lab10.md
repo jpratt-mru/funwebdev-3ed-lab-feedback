@@ -284,9 +284,76 @@ Seems ok.
 
 ### 10.10.6
 
-- can't we just keep `getCountryData()`?
+- [ ] can't we just keep `getCountryData()`?
   - `const countries = await getCountryData();`
 
 ### 10.10.8
 
-- should the try/catch from 7 be included here?
+- [ ] should the try/catch from 7 be included here?
+
+## TYK#4
+
+# 1
+
+- [ ] "..of the four APIs..." => "...of the first four APIs..."? or do you want them to test all 5?
+
+# 2
+
+## 10.11
+
+There is no `lab10-ex11.js`...but there is a `lab10-ex11-tester.js`!
+
+Skipping this one, because it jumps immediately to the alert - is the tester file what students will start their work with?
+
+## 10.12
+
+### 10.12.1
+
+- [ ] `e` not needed in click handler...
+
+### 10.12.2
+
+- [ ] maybe instead of commenting out, just delete it? It's going to be relocated to within the handler introduced in 3 and if it's not deleted, readers might think they have to modify the one they have here later? Of course, if you DO delete it, you'll probably want to have a little note explaining why they did step 1!
+
+### 10.12.3
+
+- [ ] using an arrow function for the listener doesn't work here...`this` is binding to `document`, not `window.speechSynthesis`
+
+### 10.12.4
+
+- [ ] is the `createTextNode` bit just a reminder of how to do things differently? (because `opt.textContent = blah` seems less confusing to my brain....)
+- [ ] would `select.length == 1` be any more expressive?
+
+### 10.12.5
+
+- [ ] why the `e.preventDefault`?
+
+## 10.13
+
+### 10.13.1
+
+- [ ] Currently, the instructions at the given link say that users shout restrict their keys...but the "Application Restriction" steps are such that a new user is prolly going to get bogged down if they try to follow along.
+
+### 10.13.2
+
+- [ ] "...inserted by Google's (API?)"
+
+### 10.13.3
+
+- [ ] mention explicitly that this has to go after the `<script src>` tag? And is there a reason why that tag isn't in the `<head>`?
+
+### 10.13.4
+
+- [ ] move this earlier? (to become the new step 3?)
+
+### 10.13.5
+
+- [ ] go back to `//` comment style used in almost every other example?
+- [ ] show in the code example the "Creates map" comment so that users aren't confused over where to put the code shown here in step 5?
+- [ ] Hey, look! A `var`!
+
+### 10.13.12
+
+- [ ] "to simplify no error handling..." => "to simplify, no error handling..."
+- [ ] the createMarker call formatting is pretty wonky - that poor city.AsciiName....
+- [ ] should the `console.log(error)` be in braces? Do you want to make it `console.error`?
