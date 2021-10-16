@@ -52,6 +52,8 @@
 
 - [ ] "A more concise way..." => "An even more concise way..."
 
+---
+
 ## TYK#1
 
 ### 1
@@ -76,9 +78,13 @@ This reminds me: there should be something in either the text or in a lab exerci
 
 Maybe make 5 its own little exercise to address both issues?
 
+---
+
 ## Prototypes, Classes, and Modules
 
 - [ ] "Prototypes are more memory efficient..." => "Prototypes are a more memory efficient..."
+
+---
 
 ## 10.2
 
@@ -95,6 +101,8 @@ Maybe make 5 its own little exercise to address both issues?
 - [ ] (I still think "constructor function" is the way to go, but...)
 - [ ] I think I'm getting too pedantic here...but shouldn't it be "...and the luminance function defined in Color's prototype"?
 
+---
+
 ## 10.3
 
 ### 10.3.1
@@ -105,6 +113,8 @@ Maybe make 5 its own little exercise to address both issues?
 ### 10.3.3
 
 - "Notice that modules can only be ued within a module." sounds a bit infinite!
+
+---
 
 ## TYK#2
 
@@ -119,6 +129,8 @@ Maybe make 5 its own little exercise to address both issues?
 ### 5
 
 - [ ] I wonder whether "retrieve the sample data" is going to be enough guidance. Should the reader be explicitly told to store the result in a variable?
+
+---
 
 ## 10.4
 
@@ -152,6 +164,8 @@ Maybe make 5 its own little exercise to address both issues?
 
 - [ ] OK this is weird, but I see absolutely no change with the suggested code added - the logs to console are exactly the same as they were before the change!
 
+---
+
 ## 10.5
 
 ### 10.5.3
@@ -167,6 +181,8 @@ Maybe make 5 its own little exercise to address both issues?
 - [ ] "Remove the changes made in steps 5 and 6..." => "...made in step 6..." (since step 6 includes all the changes made in 5?)
 - [ ] Should make it clear that the code should be added directly after the `fetch`
 - [ ] in the name of all that is holy...please, no `alert`s! :)
+
+---
 
 ## 10.6
 
@@ -187,6 +203,8 @@ Maybe make 5 its own little exercise to address both issues?
 - [ ] provide guidance where the code goes
 - [ ] "obj" => "universityName" ?
 - [ ] define the regex outside of the filter call
+
+---
 
 ## 10.7
 
@@ -214,9 +232,13 @@ Maybe make 5 its own little exercise to address both issues?
 - [ ] maybe have the server respond to one of the buttons with a failure?
 - [ ] it is likely confusing whether the `received` property that is coming back is something that all responses have or whether it was constructed by the server handling the request...
 
+---
+
 ## 10.8
 
 Seems ok.
+
+---
 
 ## TYK#3
 
@@ -238,6 +260,8 @@ Seems ok.
 
 - [ ] "...to the photo URL that contains..." => to the photo API URL that contains..."
 - [ ] "...must have the name iso..." => "...must have the field name iso..."
+
+---
 
 ## 10.9
 
@@ -275,6 +299,8 @@ Seems ok.
 - [ ] add a bit of commentary about `Promise.all`?
 - [ ] I wonder if the "potentially **happen**" might make the user focus on the fact that fate could decide that both things happen at the same point in time, as opposed to focusing on the fact that "the order doesn't matter here - just that these jobs get done"?
 
+---
+
 ## 10.10
 
 ### 10.10.2
@@ -291,19 +317,23 @@ Seems ok.
 
 - [ ] should the try/catch from 7 be included here?
 
+---
+
 ## TYK#4
 
-# 1
+### 1
 
 - [ ] "..of the four APIs..." => "...of the first four APIs..."? or do you want them to test all 5?
 
-
+---
 
 ## 10.11
 
 There is no `lab10-ex11.js`...but there is a `lab10-ex11-tester.js`!
 
 Skipping this one, because it jumps immediately to the alert - is the tester file what students will start their work with?
+
+---
 
 ## 10.12
 
@@ -327,6 +357,8 @@ Skipping this one, because it jumps immediately to the alert - is the tester fil
 ### 10.12.5
 
 - [ ] why the `e.preventDefault`?
+
+---
 
 ## 10.13
 
@@ -358,6 +390,7 @@ Skipping this one, because it jumps immediately to the alert - is the tester fil
 - [ ] the createMarker call formatting is pretty wonky - that poor city.AsciiName....
 - [ ] should the `console.log(error)` be in braces? Do you want to make it `console.error`?
 
+---
 
 ## TYK#5
 
