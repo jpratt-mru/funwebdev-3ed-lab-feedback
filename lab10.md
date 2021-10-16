@@ -112,7 +112,7 @@ Maybe make 5 its own little exercise to address both issues?
 
 ### 10.3.3
 
-- "Notice that modules can only be ued within a module." sounds a bit infinite!
+- [ ] "Notice that modules can only be ued within a module." sounds a bit infinite!
 
 ---
 
@@ -401,4 +401,4 @@ This one got me thinking that the labs could benefit from screencasts of finishe
 - [ ] Figure 10.5 => Figure 10.2
 - [ ] "...display list of paintings..." => "...display a list..."
 - [ ] could suggest using delegation here as well if the reader wants to?
-- it's probably just a bit of OCD kicking in, but given the suggested way of completing this, why not rename the sections A(list of galleries), B (gallery details), C (as-is), D(as-is) and then have steps 1 through 4 talk about sections A through D?
+- [ ] it's probably just a bit of OCD kicking in, but given the suggested way of completing this, why not rename the sections A(list of galleries), B (gallery details), C (as-is), D(as-is) and then have steps 1 through 4 talk about sections A through D?
