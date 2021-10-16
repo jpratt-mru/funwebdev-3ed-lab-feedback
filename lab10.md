@@ -297,7 +297,7 @@ Seems ok.
 
 - [ ] "..of the four APIs..." => "...of the first four APIs..."? or do you want them to test all 5?
 
-# 2
+
 
 ## 10.11
 
@@ -357,3 +357,15 @@ Skipping this one, because it jumps immediately to the alert - is the tester fil
 - [ ] "to simplify no error handling..." => "to simplify, no error handling..."
 - [ ] the createMarker call formatting is pretty wonky - that poor city.AsciiName....
 - [ ] should the `console.log(error)` be in braces? Do you want to make it `console.error`?
+
+
+## TYK#5
+
+This one got me thinking that the labs could benefit from screencasts of finished products. In the screencasts, you would demo the finished product, showing the behaviour of the various completed features. These would be exceptionally useful in the more complex exercises, like this one!
+
+#1
+
+- [ ] Figure 10.5 => Figure 10.2
+- [ ] "...display list of paintings..." => "...display a list..."
+- [ ] could suggest using delegation here as well if the reader wants to?
+- it's probably just a bit of OCD kicking in, but given the suggested way of completing this, why not rename the sections A(list of galleries), B (gallery details), C (as-is), D(as-is) and then have steps 1 through 4 talk about sections A through D?
